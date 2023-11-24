@@ -251,7 +251,7 @@ const handleNextQuestion = () => {
   )}
   <QuizButton className='home' sx={{ boxShadow: 5 }} onClick={handleHome} variant='contained' color='primary'>Home</QuizButton>
   <Backdrop open={loading}><CircularProgress color='inherit'/></Backdrop>
-  {currentQuestion === questions.length && <Completed><span className='goodJob'>Good Job {user}!</span> <br />Your Scored: {score}/10</Completed>}
+  {currentQuestion === questions.length && <Completed><span className='goodJob'>Good Job {user}!</span> <br />You Scored: {score}/10</Completed>}
   </>
 )}
     </QuizBox>
