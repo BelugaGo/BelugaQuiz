@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BelugaQuiz/static/css/main.b14ca6a5.css",
-    "main.js": "/BelugaQuiz/static/js/main.e991465f.js",
+    "main.js": "/BelugaQuiz/static/js/main.408ef90f.js",
     "index.html": "/BelugaQuiz/index.html",
     "main.b14ca6a5.css.map": "/BelugaQuiz/static/css/main.b14ca6a5.css.map",
-    "main.e991465f.js.map": "/BelugaQuiz/static/js/main.e991465f.js.map"
+    "main.408ef90f.js.map": "/BelugaQuiz/static/js/main.408ef90f.js.map"
   },
   "entrypoints": [
     "static/css/main.b14ca6a5.css",
-    "static/js/main.e991465f.js"
+    "static/js/main.408ef90f.js"
   ]
 }
