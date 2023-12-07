@@ -8,6 +8,16 @@ display: flex;
 justify-content: center; 
 align-items: center;
 overflow: hidden;
+
+
+
+
+#textfieldBox {
+    
+    @media screen and (max-width: 320px) {
+        padding: 20px;
+    }
+}
 `;
 
 export const QuizBox = styled(Box)`
@@ -19,6 +29,10 @@ height: 700px;
 width: 700px;
 border-radius: 10px;    
 position: relative;
+
+@media screen and (max-width: 480px) {
+    height: 100%;
+}
 
 .home {
     position: absolute;

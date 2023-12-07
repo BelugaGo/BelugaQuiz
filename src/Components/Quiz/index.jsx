@@ -185,7 +185,7 @@ const handleNextQuestion = () => {
 
   return (
 
-    <QuizContainer maxWidth disableGutters>
+    <QuizContainer maxWidth='true' disableGutters>
       
     <QuizBox boxShadow={5}>
     {!quizStarted ? (
@@ -195,8 +195,9 @@ const handleNextQuestion = () => {
      <QuizTextBox>
      <QuizText variant='h5'>Dive into the Quiz Quest! 🌐 🧠 Uncover the excitement as you navigate through 10 intriguing questions. No ticking clock, just pure quiz fun. Are you ready to unlock your knowledge and emerge victorious? Let the Quiz Quest begin! 🚀🔍</QuizText>
 
-     <Box gap={1} sx={{ width: '100%', display: 'flex', justifyContent: 'center'  }}>
-     <TextField error={errorAlert} onChange={(e) => setUser(e.target.value)} sx={{ width: '70%' }} id="outlined-basic" label="Enter Your Name" variant="outlined" type='name' value={user} /><Button onClick={handleClear} className='bounce' variant='contained' color='primary'>Submit</Button>
+     <Box id='textfieldBox' gap={1} sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+     <TextField error={errorAlert} onChange={(e) => setUser(e.target.value)} sx={{ width: '70%' }} id="outlined-basic" label="Enter Your Name" variant="outlined" type='name' value={user} />
+     <Button onClick={handleClear} className='bounce' variant='contained' color='primary'>Submit</Button>
      </Box>
 
      <QuizButtonBox>
