@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { QuestionContainer, QuestionText, QuestionButton, QuestionAmount} from './QuestionsElement';
-import { FormControl, FormControlLabel, FormLabel, RadioGroup, Radio, Divider, FormHelperText, LinearProgress } from '@mui/material';
+import { FormControl, FormControlLabel, FormLabel, RadioGroup, Radio, Divider, FormHelperText } from '@mui/material';
 
 
 const Question = ({ question, onNextQuestion, incorrectAnswers, correctAnswer, score, setScore }) => {
